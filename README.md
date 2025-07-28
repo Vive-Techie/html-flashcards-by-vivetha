@@ -59,7 +59,7 @@ This was part of my personal learning — and now I'm sharing it for others too 
 
 ### 🔗 Live Version
   
-> https://vivetha.github.io/html-flashcards-by-vivetha/
+> https://Vive-Techie.github.io/html-flashcards-by-vivetha/
 
 ---
 
