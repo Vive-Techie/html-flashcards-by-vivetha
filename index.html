@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rare & Deprecated HTML Tags Flashcards by Vivetha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Rare & Deprecated HTML Tags Flashcards by Vivetha 💖</h1>
+            <div class="progress-indicator">
+                <span class="current-card">1</span> / <span class="total-cards">8</span>
+            </div>
+        </header>
+
+        <main class="flashcard-container">
+            <div class="flashcard" id="flashcard">
+                <div class="flashcard-inner">
+                    <div class="flashcard-front">
+                        <div class="tag-name" id="tag-name">
+                            &lt;marquee&gt;
+                        </div>
+                        <div class="status-badge" id="status-badge">
+                            Deprecated
+                        </div>
+                        <div class="flip-hint">
+                            Click to see details 📖
+                        </div>
+                    </div>
+                    
+                    <div class="flashcard-back">
+                        <div class="description" id="description">
+                            Used to scroll text horizontally or vertically.
+                        </div>
+                        
+                        <div class="example-section">
+                            <h4>Example:</h4>
+                            <code class="example" id="example">
+                                &lt;marquee&gt;🌸 Welcome to Vivetha's HTML World! 🌸&lt;/marquee&gt;
+                            </code>
+                        </div>
+                        
+                        <div class="note-section">
+                            <h4>Note:</h4>
+                            <p class="note" id="note">
+                                Creates scrolling text animation but deprecated due to accessibility issues
+                            </p>
+                        </div>
+                        
+                        <div class="flip-hint">
+                            Click to flip back ↩️
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="navigation">
+            <button class="btn btn--secondary" id="prev-btn" disabled>
+                ← Previous
+            </button>
+            <button class="btn btn--primary" id="flip-btn">
+                Flip Card 🔄
+            </button>
+            <button class="btn btn--secondary" id="next-btn">
+                Next →
+            </button>
+        </div>
+
+        <div class="card-indicator">
+            <div class="dots" id="dots"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
